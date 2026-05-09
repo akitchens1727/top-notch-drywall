@@ -28,7 +28,7 @@ export default function App() {
 
   const projects = [
     {
-      image: '/images/mntdatawork1.jpg.jpg',
+      image: '/images/work1.jpg.jpg',
       title: 'Additions'
     },
     {
@@ -50,7 +50,9 @@ export default function App() {
   ]
 
   return (
+    
     <div className="min-h-screen bg-[#f7f2eb] text-black overflow-hidden">
+      <img src="/images/review.jpg" alt="test" className="w-64" />
       {/* Header */}
       <header className="bg-black text-white border-b border-orange-500/30">
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
