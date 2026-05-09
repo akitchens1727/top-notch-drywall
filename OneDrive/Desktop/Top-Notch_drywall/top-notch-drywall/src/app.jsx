@@ -28,23 +28,23 @@ export default function App() {
 
   const projects = [
     {
-      image: '/images/work1.jpg.jpg',
+      image: '/top-notch-drywall/images/work1.jpg.jpg',
       title: 'Additions'
     },
     {
-      image: '/images/customwall.jpg',
+      image: '/top-notch-drywall/images/customwall.jpg',
       title: 'Custom Shelving'
     },
     {
-      image: '/images/waterdamage.jpg',
-      title: 'Water Damage Reapair'
+      image: '/top-notch-drywall/images/waterdamage.jpg',
+      title: 'Water Damage Repair'
     },
     {
-      image: '/images/work4.jpg',
+      image: '/top-notch-drywall/images/work4.jpg',
       title: 'New Construction'
     },
     {
-      image: './images/work5.jpg',
+      image: './top-notch-drywall/images/work5.jpg',
       title: 'Texture Matching'
     }
   ]
@@ -52,13 +52,13 @@ export default function App() {
   return (
     
     <div className="min-h-screen bg-[#f7f2eb] text-black overflow-hidden">
-      <img src="./images/review.jpg" alt="test" className="w-64" />
+      <img src="./top-notch-drywall/images/review.jpg" alt="test" className="w-64" />
       {/* Header */}
       <header className="bg-black text-white border-b border-orange-500/30">
         <div className="max-w-7xl mx-auto px-6 py-5 flex items-center justify-between">
           <div className="flex items-center gap-4">
             <img
-              src="./images/topnotchlogooo.jpg"
+              src="./top-notch-drywall/images/topnotchlogooo.jpg"
               alt="The Real Top Notch Drywall"
               className="w-28"
             />
@@ -123,7 +123,7 @@ export default function App() {
 
           <div className="relative min-h-[500px] lg:min-h-full">
             <img
-              src="./images/work6.jpg"
+              src="./top-notch-drywall/images/work6.jpg"
               alt="Drywall Project"
               className="absolute inset-0 w-full h-full object-cover"
             />
@@ -229,7 +229,7 @@ export default function App() {
           </div>
 
           <div className="grid lg:grid-cols-3 gap-8 items-start">
-            {['./images/review.jpg', './images/review2.jpg', './images/review3.jpg'].map((review, index) => (
+            {['./top-notch-drywall/images/review.jpg', './top-notch-drywall/images/review2.jpg', './top-notch-drywall/images/review3.jpg'].map((review, index) => (
               <div
                 key={index}
                 className="bg-white rounded-3xl overflow-hidden shadow-2xl border border-gray-200"
@@ -280,7 +280,7 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6 grid lg:grid-cols-4 gap-12">
           <div>
             <img
-              src="./images/topnotchlogooo.jpg"
+              src="./top-notch-drywall/images/topnotchlogooo.jpg"
               alt="The Real Top Notch Drywall"
               className="w-40 mb-6"
             />
